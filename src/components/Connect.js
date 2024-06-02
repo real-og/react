@@ -14,7 +14,7 @@ function Connect() {
   const navigate = useNavigate();
   const [tonConnectUI] = useTonConnectUI();
 
-  const BASEBACKENDURL = 'http://46.19.65.223:8000/'
+  const BASEBACKENDURL = 'https://facegame.tw1.ru/'
   let proof_payload = 'undefined'
 
   useEffect(() => {
